@@ -7,3 +7,12 @@ compatibility_date = "2023-05-15"
 # Configuration: https://developers.cloudflare.com/workers/wrangler/configuration/#triggers
 [triggers]
 crons = ["* * * * *"] # * * * * * = run every minute
+
+# Replace these with your own values
+[[d1_databases]]
+binding = "DB" # i.e. available in your Worker on env.DB
+database_name = "cloudflare-blog-webhooks-d1"
+database_id = "3df07ec7-091d-41d3-bb4e-56268c6d21bd"
+
+[vars]
+SUBSCRIBED_TAGS = ["Cloudflare Stream", "Cloudflare Images"]
