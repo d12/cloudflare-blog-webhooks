@@ -1,8 +1,8 @@
 # Cloudflare Blog Webhooks
 
-Cloudflare's Discord has a channel that can notify you when new posts are created. But there's no way to filter out the posts you don't care about.
+Cloudflare's Discord has a channel that can notify you when new posts are created, but there's no way to filter out the posts you don't care about.
 
-This project lets you subscribe to specific blog post tags to ensure you only receive notificatiions for the posts you care about.
+This project lets you subscribe to specific blog post tags to ensure you only receive notifications for the posts you care about.
 
 ## Setup
 1. Following [Cloudflare Workers documentation](https://developers.cloudflare.com/workers/), deploy this project to Cloudflare Workers.
